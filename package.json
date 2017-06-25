@@ -19,5 +19,9 @@
     "redux": "^3.7.0",
     "webpack": "^2.6.1",
     "webpack-dev-server": "^2.5.0"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.4",
+    "style-loader": "^0.18.2"
   }
 }

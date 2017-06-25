@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 
-// Import other components here
-
-// ----------------------------
+// --------Import other components here---------
+import SearchBar from '../containers/searchbar';
+require('../../style/style.css');
+// ---------------------------------------------
 
 
 export default class App extends Component {
@@ -10,7 +11,7 @@ export default class App extends Component {
         // Insert JSX to be rendered to localhost here
         return (
         <div>
-            Hello!
+            <SearchBar />
         </div>
         );
     }
